@@ -1,1 +1,1 @@
-test , checking git will delete later
+print("just testing some shit in git will delete later")
