@@ -1,53 +1,109 @@
-the_list=[1,5,3,3,"word"]
-# TUPLES
-# the_tuple = (1,5,3,3,"word")
-# print(len(the_tuple))
-#
-# print(the_tuple[1])
-#
-# numbers = 1,3,5
-# print(numbers)
-# print(type(numbers))
-#
-# for x in the_tuple:
-#     print(x)
-#
-# a,b,c=numbers
-# print(c)
-# print(numbers[-1])
-#
-# print(the_tuple+numbers)
 
-# SETS
-# the_set = {1,4,"word","snake","word"}
-# for x in the_set:
-#     print(x)
-# print(the_set)
-# the_set.add("banana")
-# print(the_set)
+person_1 = 12
+person_2 = 65
+person_3 = 2
+
+
+price = 1000
+# if person_1 < 3:
+#     print(f"ticket price for person_1  is - {price*0}")
+# elif person_1 < 13:
+#     print(f"ticket price for person_1  is - {price*0.6}")
+# elif person_1 < 66:
+#     print(f"ticket price for person_1  is - {price * 1}")
+# else:
+#     print(f"ticket price for person_1  is - {price * 0.8}")
 #
-# the_set.update(the_list)
-# print(the_set)
-# print(len(the_set))
-# print(type(the_set))
-# the_set.remove("snake")
-# print(the_set)
-# the_set.discard("banana")
-# print(the_set)
-# # the_set.remove("snake")
-# the_set.discard("banana")
-# print(the_set)
+# if person_2 < 3:
+#     print(f"ticket price for person_2  is - {price*0}")
+# elif person_2 < 13:
+#     print(f"ticket price for person_2  is - {price*0.6}")
+# elif person_2 < 66:
+#     print(f"ticket price for person_2  is - {price * 1}")
+# else:
+#     print(f"ticket price for person_2  is - {price * 0.8}")
+#
+# if person_3 < 3:
+#     print(f"ticket price for person_3  is - {price*0}")
+# elif person_3 < 13:
+#     print(f"ticket price for person_3  is - {price*0.6}")
+# elif person_3 < 66:
+#     print(f"ticket price for person_3  is - {price * 1}")
+# else:
+#     print(f"ticket price for person_  is - {price * 0.8}")
 
-# list []
-# tuple ()
-# set {}
-# dictionary {}
+# def get_ticket_price(age):
+#     if age < 3:
+#         return f"ticket price for passenger  is - {price *0}"
+#     elif age < 13:
+#         return f"ticket price for passenger  is - {price *0.6}"
+#     elif age < 66:
+#         return f"ticket price for passenger  is - {price * 1}"
+#     else:
+#         return f"ticket price for passenger  is - {price * 0.8}"
+#
+# print(get_ticket_price(person_1))
+# print(get_ticket_price(person_2))
+# print(get_ticket_price(person_3))
 
-x=100
-# while x>10:
-#     x=a=x-1
-#     print(a)
+#
+# def sum_3(a,b,c):
+#     return a+b+c
+#
+# a,b,c = 3,6,8
+#
+# d = sum_3(a,b,c)
+# print(d)
+#
+# print ( sum_3(2,89,6))
+#
+#
+# def multiple_four_numbers(a1,a2,a3,a4):
+#     return a1*a2*a3*a4
+#
+# ss = multiple_four_numbers(a,b,c,a)
+# print(ss)
+#
+# def say_my_name(name):
+#     print(f"hello {name}")
+#
+# me = "Baur"
+# say_my_name(me)
+# say_my_name("Dima")
 
-print(f"I want to print {x}")
-some_words = "new world"
-print(f"new company name = {some_words} and it will cost {x} dollars")
+def circle_area(radius):
+    area = 3.1415 * radius ** 2
+    return area
+
+r1 = 10
+r2 = 15
+r3 = 20
+
+area1 = circle_area(r1)
+area2 = circle_area(r2)
+area3 = circle_area(r3)
+
+print(f"a1 = {area1} a2 = {area2} a3 = {area3}")
+
+
+def get_list_max(list):
+    if(not len(list)):
+        return -1000
+    max = list[0]
+    for x in list:
+        x = int(x)
+        if x > max:
+            max = x
+    return max
+
+a = [10,20,30,40,15,12,7]
+b = []
+c = [9,15]
+d = [1]
+e = [10,20,30,40,15,"12",7]
+
+print(get_list_max(a))
+print(get_list_max(b))
+print(get_list_max(c))
+print(get_list_max(d))
+print(get_list_max(e))
