@@ -44,6 +44,18 @@ print("")
 dict1 = {"County": "USA", "Year": "2020", "Since": "2015"}
 for d in dict1:
     print(f"{d} - {dict1[d]}")
+
+
+print("")
+for b in dict1.values():
+    print(f"{dict1}")
+
+print("")
+
+print("")
+for el in dict1.items():
+    print(f"{el}")
+
 print("")
 
 dict2 = {
