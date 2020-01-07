@@ -18,24 +18,19 @@ print (sum_5p(22,33,44,55,66))
 #3. Создайте метод isEven - который в качестве аргумента берет целое число и если оно четное возвращает true
 #если нечетное - возвращает false
 
-def isEven (a):
 
+
+def isEven (a):
     if (a % 2) == 0:
         return True
-    else:
-        return False
-isEven(10)
+    return False
+a=11
+if isEven(a):
+    print(f"{a} - is even")
+else:
+    print(f"{a} is odd")
 
-# так????????????????
 
-
-def isEven(num):
-    number=(num/2)*2
-    if(number==num):
-        print(num, "is a even number")
-    else:
-        print(num, "is a odd number")
-isEven(10)
 
 # 5. 2 примера dictionary выведите его содержимое на экран
 
