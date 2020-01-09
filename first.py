@@ -1,82 +1,35 @@
-#
-#
-#
-# # def sum_numbers(num1,num2,num3,num4=0,num5=0,num6=0):
-# #     return num1+num2+num3+num4+num5+num6
-#
-# def sum_numbers(*args):
-#     summa = 0
-#     for x in args:
-#         summa+=x
-#     return summa
-#
-# # print(sum_numbers(1,2,3,3,2))
-# # print(sum_numbers(1,2,3))
-# # print(sum_numbers())
-#
-# def find_red(*args):
-#     # print(args)
-#     if "red" in args:
-#         print("we have red")
-#     else:
-#         print("no red")
-#
-# find_red(True,24,False, 0,"car",)
-# find_red()
-#
-#
-#
-
-# def print_me(first_name, last_name,age):
-#     print(f"Name: {first_name}, Surname: {last_name}, age: {age}")
 
 
+def method(p):
+    for x in p:
+        if(x>2):
+            print(x)
 
-# def print_me(**kwargs):
-#     for key,value in kwargs.items():
-#         print(f"{key} , {value}")
-#
-# print_me(last_name="Ivanoff", age=32, first_name="Ivan")
+x = lambda y : y*2
 
-# def sum_numbers(*args):
-#     print(args)
-#     summa = 0
-#     for x in args:
-#         summa+=x
-#         print(summa)
-#     return summa
-#
-# a = [1,4,6,8]
-# b=(2,4,6,8,9)
-# c = {4,5}
-# print(sum_numbers(*a))
-# print(sum_numbers(*b))
-# print(sum_numbers(*c))
+print(x(11))
 
-# def print_me(**kwargs):
-#     for key,value in kwargs.items():
-#         print(f"{key} , {value}")
-#
-# xx = {"a":"54","n":"vasya"}
-#
-# print_me(**xx)
+print(x(6))
 
-a = 50
+number = lambda x,y,z : z*2+y*3+z*4
 
+print(number(1,2,3))
 
-def isEven(a):
-    print(bool(a%2))
-    if a%2==1:
-        return False
-    return True
+spisok = [3,4,5,3,1,6]
 
+double_it = list(map(lambda x: x-3, spisok))
+print(double_it)
+method(double_it)
 
-if isEven(a):
-    print(f"{a} is even")
-else:
-    print(f"{a} is odd")
+months = ['jan', 'feb','may', 'mar', 'june','jul']
+j_months = []
+# j_months = list(filter(lambda z: z[0]=='j',months))
+for x in months:
+    if x[0]=='j':
+        j_months.append(x)
+m_months = list(filter(lambda v:len(v)==3,months))
 
-
-
+print(m_months)
+print(j_months)
 
 
