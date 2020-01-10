@@ -73,3 +73,16 @@ num3 = 2
 number_to_text(num1)
 number_to_text(num2)
 number_to_text(num3)
+
+
+
+a=5
+b=10
+c=10
+d=0
+
+if 1 is True:
+    print(True)
+else:
+    print(False)
+
