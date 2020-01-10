@@ -28,14 +28,16 @@ print (uppercase)
 
 # из numbers создайте новый лист который содержит только четные и меньше 7
 
+numbers = [2,1,3,5,6,7,4,5,8,18,9]
+w = list(filter(lambda x: x < 7 and x%2 ==0 , numbers))
+print(w)
 
-for x in numbers:
-    y=[]
-    if x < 7 and x%2==0:
-        y.append(x)
-    print(y)
+# y=[]
+# for x in numbers:
+#     if x < 7 and x%2==0:
+#         y.append(x)
+# print(y)
 
-# я не знаю как распечатать в таком виде [2,6,4]
 
 # из colors создайте новый лист который будет в котором будет цвета начинающиеся на 'b' или имеющие 4 буквы
 
