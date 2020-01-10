@@ -31,16 +31,3 @@ print(b_mapped)
 print('\n the following statement filters values by first four letters')
 filteredByFour = list(filter(lambda x: len(x) == 4, colors))
 print(filteredByFour)
-
-
-
-# months = ['jan', 'feb','may', 'mar', 'june','jul']
-# j_months = []
-# # j_months = list(filter(lambda z: z[0]=='j',months))
-# for x in months:
-#     if x[0]=='j':
-#         j_months.append(x)
-# m_months = list(filter(lambda v:len(v)==3,months))
-#
-# print(m_months)
-# print(j_months)
