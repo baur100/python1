@@ -40,10 +40,18 @@ for x in numbers:
 # из colors создайте новый лист который будет в котором будет цвета начинающиеся на 'b' или имеющие 4 буквы
 
 colors = ['red', 'green', 'blue', 'pink', 'black', 'brown', 'grey','white','yellow']
-i = list(filter(lambda x,  : x[0] == "b" , colors))
-print(i)
+new_list = []
+for x in colors :
+    if x[0] == "b" or len(x) ==4:
+     new_list.append(x)
 
-# Я НЕ МОГУ РЕШИТЬ ВТОРУЮ ЧАСТЬ ГДЕ 4 БУКВЫ((( НУЖНА ПОДСКАЗКА!!!
+print(new_list)
+
+#i = list(filter(lambda x  : x[0] == "b" or len(x) ==3 , colors))
+
+
+
+
 
 
 
