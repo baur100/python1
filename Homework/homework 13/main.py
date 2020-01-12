@@ -1,9 +1,13 @@
 
-from Homework import
+from homework13.Bank import Bank
+
+v = Bank()
 
 
 
-customer_1 = Bank():
+
+
+
 
 
 
