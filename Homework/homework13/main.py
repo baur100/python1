@@ -68,7 +68,7 @@ car_2.brand = "Ford"
 car_2.color = "red"
 car_2.options = ["moonroof ," , "Intelligent 4 Wheel Drive," , "Voice-Activated Touchscreen Navigation System"]
 car_2.price = 23999.00
-car_2.production_year = 2020
+car_2.production_year = 2019
 
 
 car_1.print_info()
@@ -76,15 +76,16 @@ print("")
 
 car_2.print_info()
 
-try:
-    car_1.print_info()
-except ValueError:
-    print("WRONG DATA!")
-
-try:
-    car_2.print_info()
-except ValueError:
-    print("Wrong data entered!")
+# try:
+#     car_1.print_info()
+#
+# except ValueError:
+#     print("WRONG DATA!")
+#
+# try:
+#     car_2.print_info()
+# except ValueError:
+#     print("Wrong data entered!")
 
 
 
