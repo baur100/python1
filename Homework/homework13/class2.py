@@ -18,3 +18,4 @@ class Kindergarden ():
 
     def print_favorite_food(self):
         print("    favorite food is  -  ", *self.favorite_food)
+        
