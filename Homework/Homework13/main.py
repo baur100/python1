@@ -1,6 +1,6 @@
-from Homework.homework13.class1 import Bank
-from Homework.homework13.class2 import Kindergarden
-from Homework.homework13.class3 import Dealership
+from Homework.Homework13.class1 import Bank
+from Homework.Homework13.class2 import Kindergarden
+from Homework.Homework13.class3 import Dealership
 
 print("")
 print("class1")
