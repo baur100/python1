@@ -9,8 +9,9 @@ matt.dob = "01/01/1990"
 matt.occupation = "Backend Engineer"
 matt.stack = ["Scala, Ruby, python"]
 
+matt.print_info()
+matt.work_rel_info()
 # Employee_2
-print("\n")
 
 t = Employee()
 t.first_name = "Ty"
@@ -21,9 +22,6 @@ t.stack = "JS"
 
 print("\n")
 
-matt.print_info()
-print()
-matt.work_rel_info()
 print()
 t.print_info()
 print()

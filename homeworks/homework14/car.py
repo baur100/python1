@@ -7,6 +7,4 @@ class Car:
         self.odometer = odometer
 
     def __repr__(self):
-        return f"{self.make}, {self.model}, {self.age}, {self.transmission}, {self.odometer}"
-
-
+        return f"The make is - {self.make} and the model is - {self.model}"

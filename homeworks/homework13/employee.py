@@ -1,4 +1,4 @@
-class Employee():
+class Employee:
     first_name = ""
     last_name = ""
     dob = ""
