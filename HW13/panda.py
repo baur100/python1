@@ -1,4 +1,4 @@
-class Panda():
+class Panda:
     name = ""
     weight=""
     age=0
