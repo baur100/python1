@@ -11,3 +11,9 @@ class Student:
 
     def print_major(self):
         print(f"The major is: {self.major}")
+
+    def on_honor_roll(self):
+        if self.gpa >= 3.5:
+            return True
+        else:
+            return False

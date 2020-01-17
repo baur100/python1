@@ -8,13 +8,20 @@ student3 = Student("Ashe Astrairre", "Philology", 2.7, True)
 
 student1.print_info()
 student1.print_major()
+print(student1.on_honor_roll())
+
 print("\n")
 student2.print_info()
 student2.print_major()
+print(student2.on_honor_roll())
+
 print("\n")
 student3.print_info()
 student3.print_major()
-print("\n\n\n")
+print(student3.on_honor_roll())
+
+print("\n")
+
 
 
 # QUIZ
