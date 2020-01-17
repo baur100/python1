@@ -1,7 +1,7 @@
-from Homework.Homework14.Bank import Bank
-from Homework.Homework14.Dealership import Dealership
-from Homework.Homework14.Kindergarden import Kindergarden
 
+from Homework.Homework15.Kindergarten15 import Kindergarten
+from Homework.Homework15.Bank15 import Bank
+from Homework.Homework15.Dealership15 import Dealership
 
 print("")
 print("class_Bank")
@@ -9,23 +9,42 @@ print("")
 
 customer_1 = Bank("Dima", "Nikolaev", 3000, " checking , savings ,  investment, retiring  ")
 print(customer_1)
+print(customer_1.__dict__)
 
 customer_2 = Bank("John", "Smith", 7000, " checking  and  savings   ")
 print(customer_2)
+print(customer_2.__dict__)
 
 print("")
-print("class_Kindergarden")
+
+customer_2._first_name_on_account = "Edvard"
+customer_2._second_name_on_account = "Williams"
+customer_2.balance = -100
+customer_2._all_accounts = "all closed"
+
+print(customer_2)
+
+print("")
+print("class  Kindergarten")
 print("")
 
-child_1 = Kindergarden("Michael", "Smith", 2018, " yogurt   ")
+child_1 = Kindergarten("Michael", "Smith", 2018, " yogurt   ")
 print(child_1)
 
-child_2 = Kindergarden("Jeniffer", "Johnson", 2016, " cookies, chips   ")
+child_1.dob = 2022
+child_1._first_name = "Vitalik"
+print(child_1)
+print(child_1.__dict__)
+
+
+child_2 = Kindergarten("Jeniffer", "Johnson", 2016, " cookies, chips   ")
 print(child_2)
 
 print("")
 print("class_Dealership")
 print("")
+
+
 
 car_1 = Dealership("BMW", "2018", "white", " moonroof ,Intelligent 4 Wheel Drive, Voice-Activated Touchscreen Navigation System ", "53.000.0")
 print(car_1)
@@ -34,6 +53,12 @@ car_2 = Dealership("FORD", "2015", "red", "   sunroof ,adaptive CC ,sport packag
 print(car_2)
 
 
+car_1._color = "green"
+print(car_1)
+
+
+print("")
+print("THE END")
 
 
 
@@ -104,6 +129,3 @@ print(car_2)
 # print("")
 #
 # car_2.print_info()
-
-
-

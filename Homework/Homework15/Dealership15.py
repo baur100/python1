@@ -1,25 +1,28 @@
 class Dealership:
-    brand = ""
-    production_year = 0
-    color = ""
-    options = []
-    price = 0
-
-
-
-
 
     def __init__(self, brand, production_year,color,options,price):
-        self.brand = brand
-        self.production_year = production_year
-        self.color = color
-        self.options = options
-        self.price = price
+        self._brand = brand
+        self._production_year = production_year
+        self._color = color
+        self._options = options
+        self._price = price
+
+    @property
+    def production_year(self):
+        return self._production_year
+
+    @production_year.setter
+    def production_year(self, a):
+        if a > 2020:
+            print("wrong age   ")
+        if a < 1950:
+            print("too old")
+        self._production_year = a
 
 
 
     def __repr__(self):
-        return (f"brand - {self.brand}, production year {self.production_year}, color - {self.color}, OPTIONS: {self.options}, price = $ {self.price} ")
+        return (f"brand - {self._brand}, production year {self._production_year}, color - {self._color}, OPTIONS: {self._options}, price = $ {self._price} ")
 
 
 
