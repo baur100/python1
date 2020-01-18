@@ -1,19 +1,19 @@
 from lesson15.car import Car
 from lesson15.person import Person
 
-# volvo = Car(4,"x-90","Volvo")
-# volvo.year = 1995
-# print(volvo)
+volvo = Car(4,"x-90","Volvo")
+volvo.year = 199
+print(volvo)
+
+volvo.set_year(2020)
+print(volvo)
 #
-# # volvo.set_year(2020)
-# # print(volvo)
-# #
-# # print(volvo.get_year())
-#
-# volvo.year = 1979
-# print(volvo.year)
-#
-# print(volvo.__dict__)
+print(volvo.get_year())
+
+volvo.year = 1979
+print(volvo.year)
+
+print(volvo.__dict__)
 
 vasya = Person()
 print(vasya)
