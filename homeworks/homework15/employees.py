@@ -38,7 +38,3 @@ class Employee:
     @property
     def job_title(self):
         return self._job_title
-
-    @f_name.setter
-    def job_title(self, value):
-        self._job_title = value
