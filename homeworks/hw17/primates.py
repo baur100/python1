@@ -1,10 +1,7 @@
 from homeworks.hw17.mammals import Mammals
-from homeworks.hw17.vertebrate import Vertebrates
-from homeworks.hw17.animals import Animals
-from homeworks.hw17.life import Life
 
 
-class Primates(Mammals, Vertebrates, Animals,Life):
+class Primates(Mammals):
     type = "Primates"
 
     def __init__(self, name):

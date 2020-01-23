@@ -1,9 +1,6 @@
 from homeworks.hw17.animals import Animals
 
 
-from homeworks.hw17.animals import Animals
-
-
 class Invertebrates(Animals):
     type = "Invertebrate"
 

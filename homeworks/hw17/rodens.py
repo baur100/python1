@@ -1,10 +1,7 @@
 from homeworks.hw17.mammals import Mammals
-from homeworks.hw17.vertebrate import Vertebrates
-from homeworks.hw17.animals import Animals
-from homeworks.hw17.life import Life
 
 
-class Rodens(Mammals, Vertebrates, Animals,Life):
+class Rodens(Mammals):
     type = "Rodens"
     order = "Rodentia"
 

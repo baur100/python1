@@ -1,9 +1,7 @@
 from homeworks.hw17.mammals import Mammals
-from homeworks.hw17.vertebrate import Vertebrates
-from homeworks.hw17.animals import Animals
 
 
-class Carnivores(Mammals, Vertebrates, Animals):
+class Carnivores(Mammals):
     type = "Mammals"
 
     def __init__(self, name):

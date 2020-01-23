@@ -1,14 +1,10 @@
 from homeworks.hw17.mammals import Mammals
-from homeworks.hw17.vertebrate import Vertebrates
-from homeworks.hw17.animals import Animals
-from homeworks.hw17.life import Life
 
 
-class Seals(Mammals, Vertebrates, Animals,Life):
+class Seals(Mammals):
     type = "Seals"
     group = "Pinnipeds"
     mean = "Fin-footed"
-
 
     def __init__(self, name):
         super().__init__(name)

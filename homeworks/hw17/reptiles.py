@@ -1,5 +1,6 @@
 from homeworks.hw17.vertebrate import Vertebrates
 
+
 class Reptiles(Vertebrates):
     type = "Reptiles"
 

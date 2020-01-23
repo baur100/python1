@@ -1,9 +1,7 @@
-from homeworks.hw17.life import Life
-from homeworks.hw17.mammals import Mammals
-from homeworks.hw17.vertebrate import Vertebrates
-from homeworks.hw17.animals import Animals
+from homeworks.hw17.carnivores import Carnivores
 
-class Blue_whale(Mammals, Vertebrates, Animals, Life):
+
+class Blue_whale(Carnivores):
     type = "whale"
     suborder = "Mysticeti"
     length = "30 meters"

@@ -1,11 +1,7 @@
-from homeworks.hw17.life import Life
 from homeworks.hw17.carnivores import Carnivores
-from homeworks.hw17.mammals import Mammals
-from homeworks.hw17.vertebrate import Vertebrates
-from homeworks.hw17.animals import Animals
 
 
-class Wolf(Carnivores, Mammals, Vertebrates, Animals, Life):
+class Wolf(Carnivores):
     type = "Wolf"
     male_weight = "40 kg"
     female_weight = "37kg"

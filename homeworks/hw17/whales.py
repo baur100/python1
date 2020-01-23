@@ -1,10 +1,7 @@
 from homeworks.hw17.mammals import Mammals
-from homeworks.hw17.vertebrate import Vertebrates
-from homeworks.hw17.animals import Animals
-from homeworks.hw17.life import Life
 
 
-class Whales(Mammals, Vertebrates, Animals,Life):
+class Whales(Mammals):
     type = "Whale"
     group = "Aquatic"
 
