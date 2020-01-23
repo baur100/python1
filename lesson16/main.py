@@ -19,6 +19,8 @@ from lesson16.hospital import Hospital
 hospital_address = Address("122 Main str", "New Yurk", "NY", 10306)
 mr_paper = Doctor("James","Paper","M",45,"Phycisian")
 mr_stone = Doctor("Halk","Johnson","M",48,"Dantist")
+mr_stone.age=50
+print(mr_stone.age)
 
 docts = [mr_paper,mr_stone]
 
