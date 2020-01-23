@@ -1,7 +1,7 @@
 from Homework.HW17.life.vertebrate import Vertebrate
 from Homework.HW17.life.animal import Animal
 
-class Amphibian(Vertebrate, Animal):
+class Amphibian(Vertebrate):
     type = "amphibian"
 
     def __init__(self, name):

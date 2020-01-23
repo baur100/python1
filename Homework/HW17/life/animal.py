@@ -7,17 +7,17 @@ class Animal(Life):
     def __init__(self, name):
         super().__init__(name)
 
-    def breathe(self):
-        return "breathe"
-
-    def eat(self):
-        return "eat"
-
-    def spawn(self):
-        return "spawn"
-
-    def think(self):
-        return "think"
+    # def breathe(self):
+    #     return "breathe"
+    #
+    # def eat(self):
+    #     return "eat"
+    #
+    # def spawn(self):
+    #     return "spawn"
+    #
+    # def think(self):
+    #     return "think"
 
     def __str__(self):
         return f"*************************\n" \

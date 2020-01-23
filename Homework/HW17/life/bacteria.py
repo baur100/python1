@@ -7,14 +7,7 @@ class Bacteria(Life):
     def __init__(self, name):
         super().__init__(name)
 
-    def breathe(self):
-        return "breathe"
 
-    def eat(self):
-        return "eat"
-
-    def spawn(self):
-        return "spawn"
 
     def yogurt(self):
         return "make yogurt from milk"

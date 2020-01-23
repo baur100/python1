@@ -2,7 +2,7 @@ from Homework.HW17.life.vertebrate import Vertebrate
 from Homework.HW17.life.animal import Animal
 from Homework.HW17.life.mammal import Mammal
 
-class Herbivore(Mammal, Vertebrate, Animal):
+class Herbivore(Mammal):
     type = "herbivore"
 
     def __init__(self, name):

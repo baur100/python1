@@ -7,15 +7,6 @@ class Plant(Life):
     def __init__(self, name):
         super().__init__(name)
 
-    def breathe(self):
-        return "breathe"
-
-    def eat(self):
-        return "eat"
-
-    def spawn(self):
-        return "spawn"
-
     def photosynthesis(self):
         return "do photosynthesis and use carbon dioxide"
 

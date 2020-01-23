@@ -2,18 +2,29 @@ class Life:
     def __init__(self,name ):
         self._name = name
 
-
     def breathe(self):
-        raise NotImplementedError("Subclass must implement this method!")
+        return "breathe"
 
     def eat(self):
-        raise NotImplementedError("Subclass must implement this method!")
+        return "eat"
 
     def spawn(self):
-        raise NotImplementedError("Subclass must implement this method!")
+        return "spawn"
 
-    def __str__(self):
-        raise NotImplementedError("Subclass must implement this method!")
+    def think(self):
+        return "think"
+
+    # def breathe(self):
+    #     raise NotImplementedError("Subclass must implement this method!")
+    #
+    # def eat(self):
+    #     raise NotImplementedError("Subclass must implement this method!")
+    #
+    # def spawn(self):
+    #     raise NotImplementedError("Subclass must implement this method!")
+    #
+    # def __str__(self):
+    #     raise NotImplementedError("Subclass must implement this method!")
 
     @property
     def name(self):

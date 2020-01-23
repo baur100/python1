@@ -1,7 +1,7 @@
 from Homework.HW17.life.vertebrate import Vertebrate
 from Homework.HW17.life.animal import Animal
 
-class Fish(Vertebrate, Animal):
+class Fish(Vertebrate):
     type = "fish"
 
     def __init__(self, name):

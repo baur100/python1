@@ -3,7 +3,7 @@ from Homework.HW17.life.animal import Animal
 from Homework.HW17.life.mammal import Mammal
 from Homework.HW17.life.carnivore import Carnivore
 
-class Wolf(Carnivore, Mammal, Vertebrate, Animal):
+class Wolf(Carnivore):
     type = "wolf"
     color = "grey"
 
@@ -17,7 +17,7 @@ class Wolf(Carnivore, Mammal, Vertebrate, Animal):
 
     def __str__(self):
         return f"*************************\nHi! I am a {self._name}. As a living being I can {self.breathe()}, {self.eat()}, {self.spawn()}.\n" \
-            f"As an {Animal.type} I can {self.think()}.\n" \
+            f"As a {Animal.type} I can {self.think()}.\n" \
             f"As a {Vertebrate.type} {self.backbone()}.\n" \
             f"As a {Mammal.type} {self.milk()}.\n" \
             f"As a {Carnivore.type} {self.meat()}\n" \

@@ -2,7 +2,7 @@ from Homework.HW17.life.vertebrate import Vertebrate
 from Homework.HW17.life.animal import Animal
 from Homework.HW17.life.mammal import Mammal
 
-class Rodent(Mammal, Vertebrate, Animal):
+class Rodent(Mammal):
     type = "rodent"
 
     def __init__(self, name):

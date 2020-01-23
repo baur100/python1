@@ -57,3 +57,5 @@ print(f"Grey wolf gender: {grey_wolf.gender}")
 print(f"Congo lion age: {congo_lion.age}")
 print(f"Blue whale weight: {blue_whale.weight}")
 
+
+
