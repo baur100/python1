@@ -5,11 +5,16 @@ class Life:
         self._Plants = plants
         self._Animals = animals
 
-    def breathe(self):
-        return f"I am from Life class "
 
-    def get_info(self):
-        return f" Hello I am method from Life class and I represent all life    "
+    def exists (self):
+        return "all life exists - Life class"
+
+    def miracle(self):
+        return "Life is a miracle"
+
+
+
+
 
 
 

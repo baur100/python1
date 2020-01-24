@@ -20,7 +20,4 @@ all_farms = farm1 + farm2 + farm3
 print(all_farms)
 
 
-# new_farm = my_farm1 + my_farm2
-#
-# print(new_farm)
-# print(f"Farm acreage is {len(new_farm)} acres")
+
