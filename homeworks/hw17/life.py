@@ -17,7 +17,8 @@ class Life:
     def all_func(self):
         return f"{self.eat()}\n" \
                f"{self.see()}\n" \
-               f"{self.breathe()}\n"
+               f"{self.breathe()}" \
+               f"{self.proliferate()}"
 
     @property
     def name(self):
